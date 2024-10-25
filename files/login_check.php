@@ -1,7 +1,6 @@
 <?php
 include "config.php";
 
-echo "Hola";
 
 
 	if (($_POST['usuari'] === USER) && (password_verify($_POST['pass'],USER_PASS))||
