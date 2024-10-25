@@ -1,0 +1,27 @@
+
+<?php
+session_start();
+$_SESSION = array();
+session_destroy();
+?>
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset='UTF-8'>
+ <!link rel="stylesheet" href="css/login.css">
+ <title>index.php</title>
+ </head>
+ <body>
+    <form action="files/login_check.php" method="POST">
+      <section class="border">
+        <h4>Formulari</h4>
+	<input class="controls" type="text" name="usuari" placeholder="Insereix el seu nom">
+        <input class="controls" type="password" name="pass" placeholder="Insereix la seva Contrasenya">
+        <input class="botons" type="submit" name="login"/>
+      </section>
+    </form>
+ </body>
+ </html>
+ 
+ 
