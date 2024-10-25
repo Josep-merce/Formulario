@@ -13,6 +13,6 @@
  ?>
  
  <br><br>
- <a href=" files/index.php"> Torna </a> 
+ <a href=" ../index.html"> Torna </a> 
  </body>
  </html>
